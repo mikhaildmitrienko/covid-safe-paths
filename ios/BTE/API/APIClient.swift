@@ -14,8 +14,7 @@ final class APIClient {
   static let shared = APIClient(
     postUrl: URL(string: "https://exposure-2kabcv6c4a-uc.a.run.app")!,
     pullUrl: URL(string: "https://federationout-2kabcv6c4a-uc.a.run.app")!,
-    //    indexFileUrl: URL(string: "https://storage.googleapis.com")!
-    indexFileUrl: URL(string: "https://www.w3.org/TR/PNG")!
+    indexFileUrl: URL(string: "https://storage.googleapis.com")!
   )
 
   private let sessionManager: SessionManager

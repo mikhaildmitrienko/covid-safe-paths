@@ -75,6 +75,7 @@
 		B52D88C2248F0FD90071ED51 /* GPSSecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D88C1248F0FD90071ED51 /* GPSSecureStorage.swift */; };
 		B52D88C4248F10FD0071ED51 /* BTESecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D88C3248F10FD0071ED51 /* BTESecureStorage.swift */; };
 		B596C0722488127D00943B79 /* PTCExposureManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B596C0712488127D00943B79 /* PTCExposureManagerModule.m */; };
+		B5C490A82498F84000588A5F /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C490A72498F84000588A5F /* Region.swift */; };
 		B5FB3B43248BD61A001DB1D5 /* DebugMenuModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FB3B42248BD61A001DB1D5 /* DebugMenuModule.m */; };
 		B5FBB0BD2490339900433980 /* DiagnosisKeyUrlRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FBB0BC2490339900433980 /* DiagnosisKeyUrlRequests.swift */; };
 		B5FBB0CF24916A4C00433980 /* DebugAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FBB0CE24916A4C00433980 /* DebugAction.swift */; };
@@ -323,6 +324,7 @@
 		B52D88C1248F0FD90071ED51 /* GPSSecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSSecureStorage.swift; sourceTree = "<group>"; };
 		B52D88C3248F10FD0071ED51 /* BTESecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTESecureStorage.swift; sourceTree = "<group>"; };
 		B596C0712488127D00943B79 /* PTCExposureManagerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTCExposureManagerModule.m; sourceTree = "<group>"; };
+		B5C490A72498F84000588A5F /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		B5FB3B42248BD61A001DB1D5 /* DebugMenuModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugMenuModule.m; sourceTree = "<group>"; };
 		B5FBB0BC2490339900433980 /* DiagnosisKeyUrlRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisKeyUrlRequests.swift; sourceTree = "<group>"; };
 		B5FBB0CE24916A4C00433980 /* DebugAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAction.swift; sourceTree = "<group>"; };
@@ -1297,6 +1299,7 @@
 				B5FC37E8248A8302006474EB /* TestResult.swift in Sources */,
 				B5FBB0D524916D8900433980 /* UserState.swift in Sources */,
 				B5FBB0D724916DE100433980 /* Notification+Extensions.swift in Sources */,
+				B5C490A82498F84000588A5F /* Region.swift in Sources */,
 				B52D88C4248F10FD0071ED51 /* BTESecureStorage.swift in Sources */,
 				B5FC37CC2489B251006474EB /* Result.swift in Sources */,
 				C58463E42486C51100BCB842 /* ExposureManager.swift in Sources */,
