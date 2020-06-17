@@ -7,6 +7,8 @@ import { SvgXml } from 'react-native-svg';
 
 import { Icons } from '../assets';
 import { Colors } from '../styles';
+import { useTranslation } from 'react-i18next';
+
 
 /**
  * Navigation bar and status bar. Optionally include bottom nav
@@ -18,6 +20,8 @@ import { Colors } from '../styles';
  * }} param0
  */
 const widthScale = Math.min(Dimensions.get('window').width / 400, 1.0);
+
+
 
 interface NavigationBarWrapperProps {
   children: React.ReactNode;
@@ -44,7 +48,7 @@ export const NavigationBarWrapper = ({
   includeBackButton = true,
 }: NavigationBarWrapperProps): JSX.Element => {
   const theme = useTheme<{ navBar: string }>();
-
+  const { t } = useTranslation();
   const barColor = (theme && theme.navBar) || Colors.primaryViolet;
 
   return (
@@ -59,8 +63,8 @@ export const NavigationBarWrapper = ({
         <Header>
           {includeBackButton ? (
             <BackArrowIcon onPress={() => onBackPress()}>
-              <BackArrowSvg xml={Icons.BackArrow} />
-            </BackArrowIcon>
+                <BackArrowSvg accessibilityLabel={t('label.go_back')} xml={Icons.BackArrow} />
+             </BackArrowIcon>
           ) : null}
           <Title>{title}</Title>
         </Header>
